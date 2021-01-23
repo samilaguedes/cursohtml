@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamaho do seu navegador </p>
+    <picture>
+       <source media="(Max-width: 750px)" srcset="imagens/p..png" type="image/png">
+        <source media="(Max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/imagem g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>VAmos aprender a reproduzir áudio em HTML5</p>
+    <h2>Modo 2 de fazer</h2>
+    <audio src="midia colocando audio no site/Badman Tings Riddim - Konrad OldMoney.mp3" controls autoplay></audio>
+    <h2>Modo 2 de fazer</h2>
+    <audio preload="metadata" autoplay controls loop>
+      <source src="midia colocando audio no site/Badman Tings Riddim - Konrad OldMoney.mp3" type="audio/mpeg">
+        <source src="midia colocando audio no site/Badman Tings Riddim - Konrad OldMoney.ogg" type="audio/ogg">
+         <source src="midia colocando audio no site/Badman Tings Riddim - Konrad OldMoney.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio.<a href="midia colocando audio no site/Badman Tings Riddim - Konrad OldMoney.mp3"></a> </p>
+    ></audio>
+    
+</body>
+</html>
